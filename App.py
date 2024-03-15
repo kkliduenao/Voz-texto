@@ -24,7 +24,7 @@ st.image(image)
 
 st.write("Oprime el Botón y dinos lo que quieres traducir")
 
-stt_button = Button(label=" Inicio ", width=200)
+stt_button = Button(label=" Habla aquí ", width=200)
 
 stt_button.js_on_event("button_click", CustomJS(code="""
     var recognition = new webkitSpeechRecognition();
